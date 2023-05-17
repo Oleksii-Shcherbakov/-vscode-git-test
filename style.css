@@ -84,12 +84,12 @@
 }
 .price-card__advantages {
   color: white;
-  margin-left: 22px;
+  margin-left: 20px;
   font-family: "Montserrat";
   font-weight: 300;
 }
 .price-card__advantages :first-child {
-  margin-top: -22px;
+  margin-top: -23px;
 }
 .price-card .price-card__order-btn {
   width: 155px;
@@ -114,7 +114,7 @@
 }
 
 .advantages {
-  padding: 15px 27px;
+  padding: 15px 25px;
 }
 
 .advantages:nth-child(odd) {
