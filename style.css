@@ -1,0 +1,112 @@
+.price-card {
+  background: #334247;
+  width: 380px;
+  height: 770px;
+  box-sizing: border-box;
+}
+.price-card__variants {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 43px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+.price-card__title {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  margin-top: -53px;
+}
+.price-card__price {
+  width: 380px;
+  height: 105px;
+  background: #5BB189;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  font-family: "Work Sans", sans-serif;
+}
+.price-card__price-blue {
+  width: 380px;
+  height: 105px;
+  background: #3A6BA5;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+}
+.price-card__price-orange {
+  width: 380px;
+  height: 105px;
+  background: #EC632A;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+}
+.price-card__description {
+  padding: 18px 26px;
+  width: 327px;
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+.price-card__advantages {
+  color: white;
+  margin-left: 22px;
+}
+.price-card__advantages :first-child {
+  margin-top: -24px;
+}
+.price-card__button {
+  width: 155px;
+  height: 40px;
+  color: white;
+  background: #5BB189;
+  border-radius: 20px;
+  border: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 55px;
+}
+
+.global {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages {
+  padding: 16px 22px;
+}
+
+.advantages:nth-child(odd) {
+  background: #2A3438;
+}
+
+html {
+  background: #141B1C;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+  padding: 132px 115px;
+}
+
+/*# sourceMappingURL=style.css.map */
