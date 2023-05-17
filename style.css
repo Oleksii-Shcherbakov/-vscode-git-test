@@ -73,7 +73,7 @@
   background: #EC632A;
 }
 .price-card__description {
-  padding: 18px 26px;
+  padding: 15px 25px;
   width: 327px;
   color: white;
   font-size: 15px;
@@ -98,6 +98,7 @@
   background: #5BB189;
   border-radius: 20px;
   border: none;
+  font-family: "Montserrat";
   text-transform: uppercase;
   display: flex;
   justify-content: center;
