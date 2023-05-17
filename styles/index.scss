@@ -6,3 +6,9 @@ html {
    font-family: 'Work Sans', sans-serif;
    padding: 132px 115px;
 }
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: #141b1c;
+}

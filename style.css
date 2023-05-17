@@ -1,11 +1,13 @@
+.table {
+  margin: auto;
+  display: flex;
+}
+
 .price-card {
   background: #334247;
   width: 380px;
   height: 770px;
   box-sizing: border-box;
-}
-.price-card :last-child {
-  margin-right: 15px;
 }
 .price-card__variants {
   text-align: center;
@@ -13,7 +15,6 @@
   font-weight: 700;
   font-size: 35px;
   line-height: 43px;
-  padding-top: 20px;
   padding-bottom: 0;
 }
 .price-card__title {
@@ -37,29 +38,8 @@
   line-height: 67px;
   font-family: "Work Sans", sans-serif;
 }
-.price-card__price-blue {
-  width: 380px;
-  height: 105px;
-  background: #3A6BA5;
-  color: white;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
-}
-.price-card__price-orange {
-  width: 380px;
-  height: 105px;
-  background: #EC632A;
-  color: white;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
+.price-card__price :last-child {
+  color: black;
 }
 .price-card__description {
   padding: 18px 26px;
@@ -77,7 +57,7 @@
 .price-card__advantages :first-child {
   margin-top: -24px;
 }
-.price-card__button {
+.price-card .price-card__order-btn {
   width: 155px;
   height: 40px;
   color: white;
@@ -89,13 +69,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 55px;
-}
-
-.global {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 90px;
+  margin-top: 30px;
 }
 
 .advantages {
@@ -111,6 +85,12 @@ html {
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
   padding: 132px 115px;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: #141b1c;
 }
 
 /*# sourceMappingURL=style.css.map */

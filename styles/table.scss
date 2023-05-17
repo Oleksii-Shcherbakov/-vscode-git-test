@@ -1,9 +1,7 @@
-// .price-card__column {
-//    display: flex;
-//    margin: 10px;
-   
-  
-// }
+.table {
+    margin: auto;
+    display: flex;
+}
 .price-card {
    background: #334247;
    width: 380px;
@@ -11,19 +9,12 @@
    box-sizing: border-box;
    
 
-
-   :last-child {
-      margin-right: 15px;
-   }
-
-
    &__variants {
       text-align: center;
       color: white;
       font-weight: 700;
       font-size: 35px;
       line-height: 43px;
-      padding-top: 20px;
       padding-bottom: 0;
    }
 
@@ -49,31 +40,15 @@
       line-height: 67px;
       font-family: 'Work Sans', sans-serif;
 
+      :last-child {
+         color: black;
+      }
+
+      
+
    }
-   &__price-blue {
-      width: 380px;
-      height: 105px;
-      background: #3A6BA5;
-      color: white;
-      justify-content: center;
-      display: flex;
-      align-items: center;
-      font-weight: 700;
-      font-size: 55px;
-      line-height: 67px;
-   }
-   &__price-orange {
-      width: 380px;
-      height: 105px;
-      background: #EC632A;
-      color: white;
-      justify-content: center;
-      display: flex;
-      align-items: center;
-      font-weight: 700;
-      font-size: 55px;
-      line-height: 67px;
-   }
+
+
 
    &__description {
       padding: 18px 26px;
@@ -96,7 +71,7 @@
      
    }
 
-   &__button {
+   .price-card__order-btn {
       width: 155px;
       height: 40px;
       color: white;
@@ -108,21 +83,14 @@
       justify-content: center;
       align-items: center;
       margin: auto;
-      margin-top: 55px;
+      margin-top: 30px;
       
-
-
+      
    }
- 
 }
 
 
-.global {
-   display: flex;
-   justify-content: space-between;
-   margin-right: 90px;
-   
-}
+
 
 .advantages {
    padding: 16px 22px; 
