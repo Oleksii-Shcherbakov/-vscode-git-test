@@ -17,15 +17,17 @@
       line-height: 43px;
       padding-bottom: 0;
       margin-top: 33px;
+      font-family: 'Montserrat';
    }
 
    &__title {
       text-align: center;
       color: white;
-      font-weight: 300;
       font-size: 20px;
       line-height: 25px;
       margin-top: -53px;
+      font-family: 'Montserrat';
+      font-weight: 300;
    }
 
    &__price {
@@ -56,15 +58,18 @@
       padding: 18px 26px;
       width: 327px;
       color: white;
-      font-weight: 300;
       font-size: 15px;
       line-height: 18px;
       text-align: center;
+      font-family: 'Montserrat';
+      font-weight: 300;
    }
 
    &__advantages {
       color: white;
       margin-left: 22px;
+      font-family: 'Montserrat';
+      font-weight: 300;
 
       :first-child {
          margin-top: -24px ;
@@ -85,7 +90,7 @@
       justify-content: center;
       align-items: center;
       margin: auto;
-      margin-top: 0px;
+      margin-top: 20px;
           
    }
 }
@@ -94,7 +99,7 @@
 
 
 .advantages {
-   padding: 24px 18px; 
+   padding: 18px 18px; 
    } 
    
 .advantages:nth-child(odd) {
