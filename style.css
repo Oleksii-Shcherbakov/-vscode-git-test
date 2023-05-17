@@ -74,7 +74,7 @@
   font-weight: 300;
 }
 .price-card__advantages :first-child {
-  margin-top: -24px;
+  margin-top: -22px;
 }
 .price-card .price-card__order-btn {
   width: 155px;
@@ -98,7 +98,7 @@
 }
 
 .advantages {
-  padding: 18px 18px;
+  padding: 17px 20px;
 }
 
 .advantages:nth-child(odd) {
