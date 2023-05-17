@@ -16,6 +16,7 @@
   font-size: 35px;
   line-height: 43px;
   padding-bottom: 0;
+  margin-top: 33px;
 }
 .price-card__title {
   text-align: center;
@@ -37,6 +38,7 @@
   font-size: 55px;
   line-height: 67px;
   font-family: "Work Sans", sans-serif;
+  margin-top: 33px;
 }
 .price-card__price :last-child {
   color: black;
@@ -81,10 +83,8 @@
 }
 
 html {
-  background: #141B1C;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
-  padding: 132px 115px;
 }
 
 body {
