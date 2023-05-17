@@ -1,9 +1,9 @@
-// .price-card__column {
-//    display: flex;
-//    margin: 10px;
+.price-card__column {
+   display: flex;
+   margin: 10px;
    
   
-// }
+}
 .price-card {
    background: #334247;
    width: 380px;
@@ -12,9 +12,9 @@
    
 
 
-   // :last-child {
-   //    margin-right: 15px;
-   // }
+   :last-child {
+      margin-right: 15px;
+   }
 
 
    &__variants {
