@@ -48,10 +48,25 @@
          color: black;
       }
 
+     
+
       
 
    }
-
+.price-card__price-blue {
+      width: 380px;
+      height: 105px;
+      background: #3A6BA5;
+      color: white;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 67px;
+      font-family: 'Montserrat', sans-serif;
+      margin-top: 33px;
+}
 
 
    &__description {
