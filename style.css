@@ -3,11 +3,20 @@
   display: flex;
 }
 
+.price-card:first-child {
+  margin-right: 15px;
+}
+
+.price-card:last-child {
+  margin-left: 15px;
+}
+
 .price-card {
   background: #334247;
   width: 380px;
   height: 770px;
   box-sizing: border-box;
+  margin: auto;
 }
 .price-card__variants {
   text-align: center;
