@@ -54,6 +54,21 @@
 .price-card .blue {
   background: #3A6BA5;
 }
+.price-card__rectangle {
+  width: 147px;
+  height: 25px;
+  text-transform: uppercase;
+  color: white;
+  background: red;
+  position: absolute;
+  left: 55%;
+  top: 4.71%;
+  transform: rotate(45deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
 .price-card .orange {
   background: #EC632A;
 }
@@ -114,6 +129,7 @@ body {
   display: flex;
   min-height: 100vh;
   background-color: #141b1c;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

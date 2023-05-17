@@ -56,6 +56,23 @@
 .blue {
       background: #3A6BA5;
 }
+
+&__rectangle {
+   width: 147px;
+   height: 25px;
+   text-transform: uppercase;
+   color: white;
+   background: red;
+   position: absolute;
+   left: 55%;
+   top: 4.71%;
+   transform: rotate(45deg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+
+}
 .orange {
    background: #EC632A;
 }
@@ -107,6 +124,8 @@
    .orange {
       background: #EC632A;
    }
+
+
 }
 
 
