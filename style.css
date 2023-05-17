@@ -1,8 +1,16 @@
+.price-card__column {
+  display: flex;
+  margin: 10px;
+}
+
 .price-card {
   background: #334247;
   width: 380px;
   height: 770px;
   box-sizing: border-box;
+}
+.price-card :last-child {
+  margin-right: 15px;
 }
 .price-card__variants {
   text-align: center;
