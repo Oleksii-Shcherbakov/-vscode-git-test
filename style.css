@@ -95,6 +95,7 @@
 .global {
   display: flex;
   justify-content: space-between;
+  margin-right: 90px;
 }
 
 .advantages {
