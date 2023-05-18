@@ -63,16 +63,15 @@
    text-transform: uppercase;
    color: white;
    background: #DC3F45;
-   position: absolute;
-   left: 0%;
-   right: 79.5%;
-   top: 14.71%;
+   position: fixed;
+   left: 87%;
+   right: 1.5%;
+   top: 4.71%;
    bottom: -34.29%;
    transform: rotate(45deg);
    display: flex;
    justify-content: center;
    align-items: center;
-   overflow: hidden;
 
 }
 .orange {
